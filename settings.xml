@@ -6,7 +6,6 @@
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
 </servers>
-
 <profiles>
   <profile>
     <id>nextwork-nextwork-devops-cicd</id>
@@ -16,17 +15,16 @@
     <repositories>
       <repository>
         <id>nextwork-nextwork-devops-cicd</id>
-        <url>https://nextwork-471112976395.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+        <url>https://nextwork-449929871388.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
       </repository>
     </repositories>
   </profile>
 </profiles>
-
 <mirrors>
   <mirror>
     <id>nextwork-nextwork-devops-cicd</id>
     <name>nextwork-nextwork-devops-cicd</name>
-    <url>https://nextwork-471112976395.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+    <url>https://nextwork-449929871388.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
